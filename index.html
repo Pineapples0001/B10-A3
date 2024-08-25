@@ -10,7 +10,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
   </style>
 </head>
-<header class="font-[Manrope,sans-serif]">
+<header class="font-[Manrope,sans-serif] pb-32">
   <navbar class="pt-8 flex justify-between items-center lg:pt-16 px-4 lg:justify-around">
     <div>
       <p class="font-extrabold text-3xl inline-flex items-center gap-2">
@@ -64,7 +64,47 @@
     </div>
   </section>
 </header>
-<body>
+<body class="m-auto">
+  <div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-12">
+      <img
+        src="assets/Rectangle.png"
+        class="rounded-lg shadow-2xl" />
+      <div>
+        <img src="assets/Vector.png" class="hidden lg:block relative mb-4 -ml-12">
+        <div class="text-center lg:text-left">
+          <button class="btn bg-white rounded-3xl px-4 py-0 mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>          
+            About Us</button>
+        </div>
+        <h1 class="text-5xl font-bold text-center lg:text-left">We design thoughtful,<br> liveable spaces</h1>
+        <p class="py-6 text-center lg:text-left">
+          The barn house captivates with its blend of rustic charm and <br> 
+          modern sophistication, featuring weathered wood, sleek metal accents.
+        </p>
+        <div class="flex gap-5 mb-5 bg-white p-6 rounded-2xl">
+          <div>
+            <img src="assets/commercial.png">
+          </div>
+          <div>
+            <p class="font-extrabold text-xl">Commercial</p>
+            <p>The barn house captivates with its blend<br> of rustic charm and modern.</p>
+          </div>
+        </div>
+        <div class="flex gap-5 mb-5 bg-white p-6 rounded-2xl">
+          <div>
+            <img src="assets/residential.png">
+          </div>
+          <div>
+            <p class="font-extrabold text-xl">Residential</p>
+            <p>The barn house captivates with its blend<br> of rustic charm and modern.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   
 </body>
 </html>
